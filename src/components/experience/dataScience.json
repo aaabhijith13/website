@@ -1,0 +1,53 @@
+{
+    "experiences": [
+      {
+        "skill": "SQL",
+        "level": "Advanced"
+      },
+      {
+        "skill": "Supervised learning",
+        "level": "Advanced"
+      },
+      {
+        "skill": "Unsupervised learning",
+        "level": "Advanced"
+      },      {
+        "skill": "Deep learning",
+        "level": "Intermediate"
+      },      {
+        "skill": "AWS Services",
+        "level": "Intermediate"
+      },      {
+        "skill": "A/B Testing",
+        "level": "Intermediate"
+      },
+      {
+        "skill": "PowerBI",
+        "level": "Intermediate"
+      },      {
+        "skill": "Tableau",
+        "level": "Intermediate"
+      }
+    ],
+    "programming": [
+      {
+        "skill": "Python",
+        "level": "Advanced"
+      },
+      {
+        "skill": "JavaScript",
+        "level": "Intermediate"
+      },
+      {
+        "skill": "R-Programming",
+        "level": "Intermediate"
+      },      {
+        "skill": "HTML and CSS",
+        "level": "Intermediate"
+      },      {
+        "skill": "Linux",
+        "level": "Intermediate"
+      }
+    ]
+  }
+  

@@ -1,0 +1,62 @@
+.portfolio__containter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;   
+}
+.portfolio__item{
+    display: grid;
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    border-color: var(--color-primary-variant);
+    height: 690px;
+    width: 352px;
+}
+
+
+.portfolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    height: 270px;
+    width: 320px;
+}
+
+.portfolio__item h3 {
+    margin: 1rem 0 2rem;
+    display: flex;
+    text-align: center;
+}
+.portfolio__item h5{
+    text-align: justify;
+}
+.github__container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+
+}
+.description__container{
+    display: flex-start;
+}
+/* ====== mEDIA qUERIES (MEDIUM dEVICES) ==== */
+
+@media screen and (max-width: 1024px) {
+   .portfolio__containter{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+   }
+}
+
+
+/* ====== mEDIA qUERIES (SMALL dEVICES) ==== */
+
+@media screen and (max-width: 600px) {
+
+    .portfolio__containter{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+       }
+}

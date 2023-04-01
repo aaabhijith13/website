@@ -1,0 +1,25 @@
+.project__labels{
+    display: grid;
+    grid-template-columns: 0.22fr 0.03fr 0.22fr ;
+    gap: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.project__labels > div {
+    color: var( --color-light);
+}
+
+.project__labels > .datasci__container:hover, .personal__container:hover{
+    color: var(--color-white)
+}
+
+.datasci__container.active,
+.personal__container.active {
+    color: var(--color-white);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
