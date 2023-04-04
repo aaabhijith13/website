@@ -6,6 +6,7 @@ import { HeaderSocials } from './HeaderSocials';
 
 export function Header() {  
   return (
+    <section id = "header">
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
@@ -21,6 +22,8 @@ export function Header() {
       <a href = "#contact" className='scroll__down'> Scroll Down</a>
       </div>
     </header>
+    </section>
+
   )
 }
 
